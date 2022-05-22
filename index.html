@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio</title>
+    <style>
+        main{
+            /*position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -59%);*/
+            text-align: center;
+            background-color: #495159;
+            height: 400px;
+            width: 400px;
+            margin: auto;
+            border-radius: 20px;
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.336);
+        }
+        h1{
+            color:  #D78521;
+            font-weight: bolder;
+        }
+        body{
+            background-color: #8AA39B;
+        }
+        #botao{
+            margin: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100px;
+            height: 30px;
+            font-weight: bolder;
+            font-size: 20px;
+            border: #495159;
+            border-radius: 10px;
+        }
+        #numInicial{
+            margin-right: 10px;
+            text-align: center;
+            font-size: 14px;
+        }
+        #numFinal{
+            text-align: center;
+            font-size: 14px;
+        }
+        #resposta{
+            background-color: lightgray;
+            margin: 15px;
+            padding: 10px;
+            height: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <Main>
+        <h1>Sorteio de um número</h1>
+        <input type="number" name="" id="numInicial" placeholder="Número inicial">
+        <input type="number" name="" id="numFinal" placeholder="Número final">
+        <input type="button" value="Sortear" onclick="sorteio()" id="botao">
+        <div id="resposta"></div>
+    </Main>
+    <script src="script.js"></script>
+</body>
+</html>
